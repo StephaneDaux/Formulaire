@@ -4,16 +4,35 @@ background-image: url("bjimg.jpg");
   
 }
 header{
-  background-color: black;
+  background-color: #050200bc;
   width: 100%;
-  
+  border-radius: 5px;
+  }
+
+.logotravel {
+  width: 80px;
+  height: 80px;
 }
 
-.navigation{
-
-display: flex;
-justify-content: flex-end;
+/* Text du header */
+.navigation {
+  font-size: 30px;
+  font-family: "Ma fonte", sans-serif;
+  margin: 30px;
 }
+
+.navigation a{
+  color: white;
+  text-decoration: none;
+}
+.bienvenue {
+  color: azure;
+font-size: 100px;
+text-align: center;
+font-family: "Ma fonte", sans-serif;
+
+}
+
 
 form {
   
@@ -109,10 +128,4 @@ font-weight: bold
       color: #000000;
     }
     
-    a {
-      color: white;
-      display: flex;
-      flex-direction: row;
-      font-size: 50px;
-      text-decoration: none;
-    }
+  
